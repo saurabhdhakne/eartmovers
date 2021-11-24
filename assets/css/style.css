@@ -5,6 +5,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.navbar .text-light2 {
+  color: rgb(255, 255, 255);
+}
 .btn-hover-group > a:hover ~ ul {
   display: block;
 }
@@ -1264,6 +1267,7 @@ footer .contact-form button.filled-button:hover {
   .sub-header {
     display: none;
   }
+
   .Modern-Slider .item h6 {
     margin-bottom: 15px;
     font-size: 18px;
@@ -1326,6 +1330,12 @@ footer .contact-form button.filled-button:hover {
   }
   .contact-item {
     margin-bottom: 30px;
+  }
+  .navbar .text-light2 {
+    color: #000;
+  }
+  .navbar .nav-item {
+    padding-left: 20px;
   }
 }
 
